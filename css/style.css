@@ -245,33 +245,12 @@ a.item_add {
 .col-1 img{
 }
 .col-2 {
-    padding-top: 1em;
-}
-.col-2 span{
-	font-size: 1.4em;
-    color: #F67777;
-    line-height: 1.8em;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-family: 'Ubuntu-Bold';
+    padding-bottom: 1em;
 }
 .col-2 h2{
 	font-size: 2.5em;
     line-height: 1.8em;
     font-family: 'Oxygen-Bold';
-}
-.col-2 h2 a{
-	text-decoration:none;
-    color: #000000;
-}
-.col-2 h2 a:hover{
-    color: #f67777;
-}
-.col-2 p{
-	font-size: 0.9em;
-    color: #B3B3B3;
-	line-height:1.8em;
-	margin:0 0 1.5em;
 }
  a.buy-now{
 	    font-size: 0.9em;
@@ -382,10 +361,13 @@ a.buy-now:hover{
 	color:#ffffff;
 	padding-top: 7em;
 }
-.b-link-stroke .b-wrapper1:hover{
+.b-link-stroke .b-wrapper1{
 	background:rgba(8, 8, 8, 0.64);
-
 }
+.b-link-stroke .b-wrapper1:hover{
+	background:none;
+}
+
 .b-link-stroke .b-wrapper2{
 	position:absolute;
 	width:100%;
@@ -443,30 +425,30 @@ a.buy-now:hover{
 	visibility:hidden; /* lt-ie9 */
 }
 /* lt-ie9 */
-.b-animate-go:hover .b-animate{
+.b-animate-go .b-animate{
 	visibility:visible;
 }
 .b-from-left{
 	position:relative;
-	left:-100%;
+	left:0;
 	    color: #F67777;
     font-size: 2em;
     text-transform: uppercase;
     font-family: 'Ubuntu-Bold';
 }
 .b-animate-go:hover .b-from-left{
-	left:0;
+	left:-100%;
 }
 .b-from-right{
 	position:relative;
-	right:-100%;
+	right:0;
 	    color: #fff;
     font-size: 1.1em;
     text-transform: uppercase;
     font-family: 'Oxygen-Bold';
 }
 .b-animate-go:hover .b-from-right{
-	right:0;
+	right:-100%;
 }
  label.b-from-right {
     width: 100px;
