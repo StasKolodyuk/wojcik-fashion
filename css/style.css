@@ -565,31 +565,31 @@ a.buy-now:hover{
 .brand {
     padding: 5em 0;
 }
-.banner-top{
+.banner-top-collection1{
 	text-align:center;
 	width: 100%;
     height: 250px;
     display: block;
-    background: url(../images/back.jpg)no-repeat ;
+    background: url(../images/collection1/banner.jpg)no-repeat ;
 	padding:5em 0;
 }
-.banner-top h1{
+.banner-top-collection1 h1{
 	font-size:3em;
 	color:#fff;
 	font-family: 'Ubuntu-Regular';
 }
-.banner-top h2{
+.banner-top-collection1 h2{
 	font-size:0.9em;
 	color:#fff;
 	margin-top:1em;
 }
-.banner-top h2 a{
+.banner-top-collection1 h2 a{
 	color:#f67777;
 }
-.banner-top h2 label{
+.banner-top-collection1 h2 label{
 	margin:0 0.4em;
 }
-.banner-top em {
+.banner-top-collection1 em {
     width: 100px;
     height: 2px;
     display: block;
@@ -1181,6 +1181,13 @@ nav.nav-sidebar {
 .address-grid {
     padding: 1em 0;
 }
+
+.collection-bottom {
+  color:#F67777;
+  font-size: 2em;
+  font-weight: bold;
+}
+
 .address1 h3{
 	font-size: 1.2em;
 	color:#000;
