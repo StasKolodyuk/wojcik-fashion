@@ -565,6 +565,11 @@ a.buy-now:hover{
 .brand {
     padding: 5em 0;
 }
+
+.intended {
+   text-indent: 50px;
+}
+
 .banner-top-collection1{
 	text-align:center;
 	width: 100%;
