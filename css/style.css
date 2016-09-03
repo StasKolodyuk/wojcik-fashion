@@ -570,7 +570,7 @@ a.buy-now:hover{
    text-indent: 50px;
 }
 
-.banner-top-collection1{
+.banner-top-collection1 {
 	text-align:center;
 	width: 100%;
     height: 250px;
@@ -578,6 +578,7 @@ a.buy-now:hover{
     background: url(../images/collection1/banner.jpg)no-repeat ;
 	padding:5em 0;
 }
+
 .banner-top-collection1 h1{
 	font-size:3em;
 	color:#fff;
@@ -602,6 +603,43 @@ a.buy-now:hover{
     border-radius: 10px;
     margin: 0.5em auto;
 }
+
+
+.banner-top-collection-contact {
+	text-align:center;
+	width: 100%;
+    height: 250px;
+    display: block;
+    background: url(../images/shop.jpg)no-repeat ;
+	padding:5em 0;
+}
+
+.banner-top-collection-contact h1{
+	font-size:3em;
+	color:#fff;
+	font-family: 'Ubuntu-Regular';
+}
+.banner-top-collection-contact h2{
+	font-size:0.9em;
+	color:#fff;
+	margin-top:1em;
+}
+.banner-top-collection-contact h2 a{
+	color:#f67777;
+}
+.banner-top-collection-contact h2 label{
+	margin:0 0.4em;
+}
+.banner-top-collection-contact em {
+    width: 100px;
+    height: 2px;
+    display: block;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0.5em auto;
+}
+
+
 /*--typo-single--*/
 
 .thumb-image > img { width: 100%; }
