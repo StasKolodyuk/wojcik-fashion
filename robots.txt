@@ -1,0 +1,13 @@
+er-Agent: *
+Disallow: 
+Allow: /index.html
+Allow: /collections.html
+Allow: /contact.html
+Allow: /shows.html
+Allow: /about.html
+Allow: /collection1.html
+Allow: /collection2.html
+Allow: /collection3.html
+Disallow: /404.html
+
+Sitemap: http://www.wojcik-brest.by/sitemap.xml
